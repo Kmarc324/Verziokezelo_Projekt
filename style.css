@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f4f6f8;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: larger;
+}
+
+body.bevezetes {
+    background-image: url('terkep.png');
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body.muzeum {
+    background-image: url('muzeum.jpg');
+}
+
+body.varos {
+    background-image: url('csillagvirag-to-szentendre-6879388.jpg');
+}
+
+body.termeszet {
+    background-image: url('hegyes-teto-panorama-a-julianus-kilatobol-2.jpg');
+}
+
+body.szabadido {
+    background-image: url('lmaresz-visegrad-163190.jpg');
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #2c8d3cc2;
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #34495e;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 30px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.74);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+p {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+li {
+    font-size: 21px;
+}
